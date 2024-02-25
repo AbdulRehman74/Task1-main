@@ -1,13 +1,6 @@
 {
-  "extends": ["stylelint-config-standard-scss"],
-  "plugins": ["stylelint-scss"],
+  "extends": "eslint:recommended",
   "rules": {
-    "at-rule-no-unknown": [
-      true,
-      {
-        "ignoreAtRules": ["mixin", "include", "function"]
-      }
-    ]
-  },
-  "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
+    // Your ESLint rules here
+  }
 }
