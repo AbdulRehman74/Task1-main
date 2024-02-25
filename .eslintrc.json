@@ -1,6 +1,6 @@
 {
   "extends": "eslint:recommended",
-  "rules": {
-    // Your ESLint rules here
+  "parserOptions": {
+    "ecmaVersion": 2018
   }
 }
