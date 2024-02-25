@@ -4,7 +4,7 @@ This repository is for the tasks of week 1 and 2 of my web developement class
 
 ## Installation
 
-To run this project you need to hav any indegerated developement environment insalled in your desktop that can execute these files
+To run this project you need to have any indegerated developement environment insalled in your desktop that can execute these files
 
 # Ignore the next section i just took it from a template
 
