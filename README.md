@@ -1,10 +1,13 @@
-# Foobar
+# Lab Task 1-2
 
-Foobar is a Python library for dealing with word pluralization.
+This repository is for the tasks of week 1 and 2 of my web developement class
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+To run this project you need to hav any indegerated developement environment insalled in your desktop that can execute these files
+
+# Ignore the next section i just took it from a template
+
 
 ```bash
 pip install foobar
