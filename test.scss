@@ -1,0 +1,42 @@
+// styles.scss
+
+// Variables
+$primary-color: #007bff;
+
+// Mixin
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Styles
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.header {
+  background-color: $primary-color;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
