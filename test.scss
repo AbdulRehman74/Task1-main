@@ -1,24 +1,25 @@
-// styles.scss
+// test.scss
 
 // Variables
 $primary-color: #007bff;
-
-// Mixin
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+$secondary-color: #ffc107;
 
 // Styles
 body {
   font-family: Arial, sans-serif;
+  background-color: $secondary-color;
 }
 
 .container {
-  width: 100%;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
+}
+
+.heading {
+  color: $primary-color;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .button {
@@ -32,11 +33,4 @@ body {
   &:hover {
     background-color: darken($primary-color, 10%);
   }
-}
-
-.header {
-  background-color: $primary-color;
-  color: white;
-  padding: 20px;
-  text-align: center;
 }
